@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07091a" />
+    <title>A birthday, in little moments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="experience" aria-label="Interactive birthday card">
+      <div class="city" aria-hidden="true"></div>
+      <div class="rain rain-back" aria-hidden="true"></div>
+      <div class="rain rain-front" aria-hidden="true"></div>
+      <div class="atmosphere" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <span class="city-label"></span>
+        <span class="memory-count" id="memoryCount">01 / 04</span>
+      </header>
+
+      <section class="stage" id="stage">
+        <button class="edge-control previous" id="previous" aria-label="Previous memory">&#8592;</button>
+        <article class="memory-card" id="memoryCard" aria-live="polite">
+          <div class="polaroid" id="polaroid">
+            <div class="photo placeholder-photo" id="photo" role="img" aria-label="Photo placeholder">
+              <span>your photo<br />goes here</span>
+            </div>
+            <p class="caption" id="caption"></p>
+          </div>
+          <div class="note">
+            <p class="eyebrow" id="eyebrow"></p>
+            <h1 id="title"></h1>
+            <p class="message" id="message"></p>
+          </div>
+        </article>
+        <button class="edge-control next" id="next" aria-label="Next memory">&#8594;</button>
+      </section>
+
+      <footer class="footer">
+        <div class="progress" id="progress" aria-label="Birthday-card progress"></div>
+        <p id="hint">Swipe to uncover the next little moment</p>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
