@@ -98,6 +98,20 @@ function createRain(selector, amount, lengthRange, durationRange) {
   }
 }
 
+async function preloadMemories() {
+  const imageUrls = memories.map(memory => memory.image).filter(Boolean);
+  const preload = imageUrl => new Promise(resolve => {
+    const image = new Image();
+    image.onload = image.onerror = resolve;
+    image.src = imageUrl;
+  });
+
+  await Promise.all(imageUrls.map(preload));
+  await new Promise(resolve => window.setTimeout(resolve, 1500));
+  document.body.classList.replace("is-loading", "is-ready");
+  document.querySelector("#intro").setAttribute("aria-busy", "false");
+}
+
 createRain(".rain-back", 85, [22, 50], [1.1, 1.8]);
 createRain(".rain-front", 52, [45, 100], [.55, 1.05]);
 
@@ -161,3 +175,4 @@ document.addEventListener("keydown", event => {
 });
 
 render(activeIndex, "next", false);
+preloadMemories();

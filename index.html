@@ -10,12 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="is-loading">
     <main class="experience" aria-label="Interactive birthday card">
       <div class="city" aria-hidden="true"></div>
       <div class="rain rain-back" aria-hidden="true"></div>
       <div class="rain rain-front" aria-hidden="true"></div>
       <div class="atmosphere" aria-hidden="true"></div>
+
+      <section class="intro" id="intro" aria-live="polite" aria-busy="true">
+        <p class="intro-eyebrow">A little something for you</p>
+        <h1>On your special day,<br />to make you feel special.</h1>
+        <p class="intro-copy" id="introCopy">Collecting the moments that make you, you.</p>
+        <span class="intro-loader" aria-hidden="true"></span>
+      </section>
 
       <header class="topbar">
         <span class="city-label"></span>
