@@ -1,52 +1,73 @@
 const memories = [
   {
-    eyebrow: "A little trip through us",
-    title: "Before the big wish...",
-    message: "I wanted to give you a few small moments first. The kind that stay warm long after the day is over.",
-    caption: "chapter one",
-    image: ""
+    eyebrow: "For the girl with the kindest eyes",
+    title: "You make warmth look easy.",
+    message: "You have a way of making even the quietest moments feel special.",
+    caption: "just you",
+    image: "assets/animated/animated-72698.png"
   },
   {
-    eyebrow: "One bright memory",
-    title: "You make ordinary days glow.",
-    message: "Every shared laugh, every late conversation, every tiny adventure has become one of my favorite places to return to.",
-    caption: "the good parts",
-    image: ""
+    eyebrow: "Still a little kid at heart",
+    title: "Never lose that spark.",
+    message: "Your silly little expressions and big soft heart are some of my favourite things about you.",
+    caption: "the playful you",
+    image: "assets/animated/animated-72650.png"
   },
   {
-    eyebrow: "A note for today",
-    title: "More magic looks good on you.",
-    message: "I hope this year brings you surprising joy, soft mornings, and exactly the kind of beautiful chaos you deserve.",
-    caption: "another year, brighter",
-    image: ""
+    eyebrow: "Small adventures, loud playlists",
+    title: "Every ride needs an Anirudh banger.",
+    message: "May life keep giving you reasons to sing along, laugh too hard, and enjoy the ride.",
+    caption: "on the way",
+    image: "assets/animated/animated-72702.png"
   },
   {
-    eyebrow: "A note for today",
-    title: "More magic looks good on you.",
-    message: "I hope this year brings you surprising joy, soft mornings, and exactly the kind of beautiful chaos you deserve.",
-    caption: "another year, brighter",
-    image: ""
+    eyebrow: "A Demon Slayer kind of heart",
+    title: "Soft, brave, unstoppable.",
+    message: "Keep chasing what you love with the same fire you bring to every story you care and mindlessly speak about.",
+    caption: "main-character energy",
+    image: "assets/animated/animated-72703.png"
   },
   {
-    eyebrow: "A note for today",
-    title: "More magic looks good on you.",
-    message: "I hope this year brings you surprising joy, soft mornings, and exactly the kind of beautiful chaos you deserve.",
-    caption: "another year, brighter",
-    image: ""
+    eyebrow: "A little pause in the chaos",
+    title: "You deserve soft days too.",
+    message: "I hope this year gives you more peaceful corners, more good chai, and more reasons to smile like this.",
+    caption: "your calm",
+    image: "assets/animated/animated-72704.png"
   },
   {
-    eyebrow: "A note for today",
-    title: "More magic looks good on you.",
-    message: "I hope this year brings you surprising joy, soft mornings, and exactly the kind of beautiful chaos you deserve.",
-    caption: "another year, brighter",
-    image: ""
+    eyebrow: "My favourite kind of company",
+    title: "Us, out in the world.",
+    message: "To cherishing yours and my special moments together, and to many more to come.",
+    caption: "sunny days",
+    image: "assets/animated/animated-72705.png"
+  },
+  {
+    eyebrow: "The little things",
+    title: "You keep life fun.",
+    message: "From long nights to tiny jokes, you make the ordinary feel worth remembering.",
+    caption: "our kind of fun",
+    image: "assets/animated/animated-72699.png"
+  },
+  {
+    eyebrow: "One more for the memories",
+    title: "Here is to every next adventure.",
+    message: "More dates, more stories, and more photos that make us laugh when we look back.",
+    caption: "always us",
+    image: "assets/animated/animated-72701.png"
+  },
+  {
+    eyebrow: "The wish behind every wish",
+    title: "Make them proud, always.",
+    message: "I know how much your family means to you. You are already becoming everything they will be proud of. Keep chasing your dreams and making them proud.",
+    caption: "your biggest dreams",
+    image: "assets/animated/animated-72700.png"
   },
   {
     eyebrow: "The final reveal",
-    title: "Happy Birthday, superstar.",
-    message: "May this next chapter be full of everything that makes you feel most alive. I am so lucky to celebrate you today.",
+    title: "Happy Birthday, love.",
+    message: "Stay soft, stay fearless, keep dreaming big, and never stop being exactly you. I will always be here to cheer you on.",
     caption: "make a wish",
-    image: ""
+    image: "assets/final-reveal.png"
   }
 ];
 
